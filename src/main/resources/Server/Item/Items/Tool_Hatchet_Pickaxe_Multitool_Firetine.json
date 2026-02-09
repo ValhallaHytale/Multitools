@@ -1,0 +1,123 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Tool_Multitool_Firetine.name"
+  },
+  "Parent": "Tool_Hatchet_Pickaxe_Multitool_Crude",
+  "Quality": "Rare",
+  "ItemLevel": 35,
+  "Model": "Items/Tools/Cobalt.blockymodel",
+  "Texture": "Items/Tools/Firetine_Texture.png",
+  "Recipe": {
+    "TimeSeconds": 4,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Firetine",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Cindercloth",
+        "Quantity": 4
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Tools"
+        ],
+        "Id": "Firetine_Bench"
+      }
+    ]
+  },
+  "Tool": {
+    "Specs": [
+      {
+        "Power": 2,
+        "GatherType": "SoftBlocks"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Soils"
+      },
+      {
+        "Power": 1,
+        "GatherType": "Woods"
+      },
+      {
+        "Power": 1,
+        "GatherType": "Rocks",
+        "Quality": 5
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "Benches"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "VolcanicRocks"
+      },
+      {
+        "Power": 1,
+        "GatherType": "OreCopper"
+      },
+      {
+        "Power": 1,
+        "GatherType": "OreIron"
+      },
+      {
+        "Power": 1,
+        "GatherType": "OreSilver"
+      },
+      {
+        "Power": 1,
+        "GatherType": "OreGold"
+      },
+      {
+        "Power": 0.5,
+        "GatherType": "OreThorium"
+      },
+      {
+        "Power": 0.75,
+        "GatherType": "OreCobalt"
+      },
+      {
+        "Power": 0.25,
+        "GatherType": "OreAdamantite",
+        "Quality": 4
+      },
+      {
+        "Power": 0.15,
+        "GatherType": "OreMithril"
+      }
+    ],
+    "DurabilityLossBlockTypes": [
+      {
+        "BlockSets": [
+          "Stone",
+          "Rock",
+          "Ores",
+          "Soil"
+        ],
+        "DurabilityLossOnHit": 0.25
+      }
+    ]
+  },
+  "MaxDurability": 400,
+  "IconProperties": {
+    "Scale": 0.45,
+    "Rotation": [
+      45,
+      270,
+      0
+    ],
+    "Translation": [
+      29,
+      -28
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Tool_Multitool_Firetine.png"
+}

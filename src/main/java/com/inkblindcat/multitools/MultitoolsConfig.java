@@ -45,6 +45,10 @@ public class MultitoolsConfig {
                             (cfg, v, ei) -> cfg.mithrilMultitoolMaxDurability = v,
                             (cfg, ei) -> cfg.mithrilMultitoolMaxDurability).add()
 
+                    .append(new KeyedCodec<>("FiretineMultitoolMaxDurability", Codec.DOUBLE),
+                            (cfg, v, ei) -> cfg.firetineMultitoolMaxDurability = v,
+                            (cfg, ei) -> cfg.firetineMultitoolMaxDurability).add()
+
                     .build();
 
     private boolean enableDurabilityOverride = false;
@@ -56,6 +60,7 @@ public class MultitoolsConfig {
     private double adamantiteMultitoolMaxDurability = 400;
     private double mithrilMultitoolMaxDurability = 400;
     private double onyxiumMultitoolMaxDurability = 450;
+    private double firetineMultitoolMaxDurability = 400;
 
     public MultitoolsConfig() {}
 
@@ -93,5 +98,9 @@ public class MultitoolsConfig {
 
     public double getMithrilMultitoolMaxDurability() {
         return mithrilMultitoolMaxDurability;
+    }
+
+    public double getFiretineMultitoolMaxDurability() {
+        return firetineMultitoolMaxDurability;
     }
 }
