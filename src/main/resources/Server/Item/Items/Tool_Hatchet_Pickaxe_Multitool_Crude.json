@@ -12,7 +12,7 @@
   "Model": "Items/Tools/Crude.blockymodel",
   "Texture": "Items/Tools/Crude_Texture.png",
   "Recipe": {
-    "TimeSeconds": 1,
+    "TimeSeconds": 0,
     "KnowledgeRequired": false,
     "Input": [
       {
